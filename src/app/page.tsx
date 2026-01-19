@@ -24,7 +24,7 @@ export default function Home() {
       </section> */}
 
       <section className="bg-white py-2 sm:py-16">
-        <div className="mx-auto max-w-7xl px-4 py-10 lg:py-10 sm:px-6">
+        <div className="mx-auto max-w-7xl px-4  sm:px-6">
           <div className="relative overflow-hidden rounded-b-[2.5rem] bg-[#0b1220] shadow-2xl ring-1 ring-black/10">
             
             <div className="pointer-events-none absolute -top-40 -left-40 h-[34rem] w-[34rem] rounded-full bg-[#233876]/25 blur-3xl" />
@@ -34,7 +34,7 @@ export default function Home() {
            
               <div className="text-center lg:text-center">
                 {/* Logo */}
-                <div className="mx-auto mb-12 w-full max-w-xl rounded-2xl bg-white/95 p-3 shadow-xl">
+                <div className="mx-auto mb-12 mt-12 w-full max-w-xl rounded-2xl bg-white/95 p-3 shadow-xl md:mt-0">
                   <img
                     src="/Logo_EUROCOMSA.jpg"
                     alt="Group Eurocom (SA) logo"
