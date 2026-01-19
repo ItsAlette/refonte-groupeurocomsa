@@ -8,7 +8,7 @@ export default function ServicesPage() {
       <section className="bg-white ">
         <div className="mx-auto max-w-7xl px-3">
           {/* Header */}
-          <div className="max-w-7xl p-6">
+          <div className="max-w-7xl px-6">
             <p className="text-sm font-semibold tracking-[0.25em] text-[#233876]">
               SERVICES
             </p>
@@ -31,7 +31,7 @@ export default function ServicesPage() {
           </div>
 
           {/* Les cards */}
-          <div className="mt-1 px-8 grid gap-6 md:grid-cols-2">
+          <div className="mt-6 px-8 grid gap-6 md:grid-cols-2">
             {/* 1 */}
             <div className="rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition hover:shadow-md">
               <div className="flex items-start gap-3">

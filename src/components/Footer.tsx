@@ -20,7 +20,7 @@ export default function Footer() {
             <a href="#" className="hover:text-white transition">
               Legal Notice
             </a>
-            <a href="#" className="hover:text-white transition">
+            <a href="/contact-us" className="hover:text-white transition">
               Contact
             </a>
           </div>
