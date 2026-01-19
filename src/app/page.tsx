@@ -26,14 +26,14 @@ export default function Home() {
       <section className="bg-white py-2 sm:py-16">
         <div className="mx-auto max-w-7xl px-4 sm:px-6">
           <div className="relative overflow-hidden rounded-b-[2.5rem] bg-[#0b1220] shadow-2xl ring-1 ring-black/10">
-            {/* Glows discrets */}
+            
             <div className="pointer-events-none absolute -top-40 -left-40 h-[34rem] w-[34rem] rounded-full bg-[#233876]/25 blur-3xl" />
             <div className="pointer-events-none absolute -bottom-40 -right-40 h-[34rem] w-[34rem] rounded-full bg-white/10 blur-3xl" />
 
             <div className="relative grid gap-10 px-6 py-2 sm:px-10 sm:py-10 lg:grid-cols-[3fr_1fr] lg:items-center">
-              {/* LEFT (logo + texte) */}
+           
               <div className="text-center lg:text-center">
-                {/* Logo card */}
+                {/* Logo */}
                 <div className="mx-auto mb-12 w-full max-w-xl rounded-2xl bg-white/95 p-3 shadow-xl">
                   <img
                     src="/Logo_EUROCOMSA.jpg"
@@ -42,12 +42,11 @@ export default function Home() {
                   />
                 </div>
 
-                {/* Title */}
                 <h2 className="mx-auto max-w-2xl text-2xl font-bold tracking-tight text-white sm:text-4xl">
                   You want your products to be the best sellers
                 </h2>
 
-                {/* Divider */}
+                {/* --- */}
                 <div className="mx-auto mt-8 h-[2px] w-24 rounded-full bg-white/35" />
 
                 {/* Description */}
@@ -57,7 +56,6 @@ export default function Home() {
                 </p>
               </div>
 
-              {/* RIGHT (YOU ARE) */}
               <div className="lg:pl-6">
                 <div className="rounded-3xl border border-white/5 bg-white/2 p-8 backdrop-blur-xl shadow-lg">
                   <div className="mb-6 flex items-center justify-between">
@@ -74,7 +72,6 @@ export default function Home() {
               </div>
             </div>
 
-            {/* Petite barre en bas (style “plinthe”) */}
             <div className="h-7 rounded-b-[2.5rem] bg-white/5" />
           </div>
         </div>

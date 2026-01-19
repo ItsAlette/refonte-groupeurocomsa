@@ -11,7 +11,7 @@ export default function YouAreSection() {
   
     return (
       <section className="mx-auto max-w-6xl px-6 py-20">
-        {/* Titre + sous-titre (comme l'image) */}
+        
         <div className="text-center">
           <h2 className="text-5xl font-extrabold tracking-tight text-gray-900">
             Home to the software teams

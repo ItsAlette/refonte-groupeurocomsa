@@ -121,35 +121,3 @@ export default function Header() {
 }
 
 
-
-
-/* import Link from "next/link";
-
-const links = [
-  { label: "Home Page", href: "/" },
-  { label: "About Us", href: "/about-us" },
-  { label: "Services", href: "/services" },
-  { label: "Solutions", href: "/solutions" },
-  { label: "Contact Us", href: "/contact-us" },
-];
-
-export default function Header() {
-  return (
-    <header className="border-b bg-white">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-6 py-4">
-        <Link href="/" className="text-xl font-bold">
-          Group Eurocomsa
-        </Link>
-
-        <nav className="flex gap-6 text-sm text-gray-700">
-          {links.map((l) => (
-            <Link key={l.href} href={l.href} className="hover:text-black">
-              {l.label}
-            </Link>
-          ))}
-        </nav>
-      </div>
-    </header>
-  );
-}
-*/
