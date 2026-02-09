@@ -10,7 +10,7 @@ export default function Home() {
 
       <div className="px-4 sm:px-6 lg:px-8 ">
             <div
-              className="mt-24 sm:h-[50dvh] md:h-[50dvh] flex flex-col bg-cover bg-center bg-no-repeat rounded-2xl"
+              className="mt-24 h-[40dvh] sm:h-[50dvh] lg:h-[60dvh] flex flex-col bg-cover bg-center bg-no-repeat rounded-2xl"
               style={{
                 backgroundImage:
                   "url('https://plus.unsplash.com/premium_photo-1661900462928-2fd7dec04c06?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTN8fHN0cmF0ZWdpYyUyMHBsYW5uaW5nfGVufDB8fDB8fHww')",
@@ -25,7 +25,7 @@ export default function Home() {
       </div>
 
 
-      <section className="pt-24 pb-2">
+      <section className="pt-12 pb-2">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:gap-y-0 lg:flex-row lg:justify-between max-md:max-w-lg max-md:mx-auto">
                   <div className="relative w-full text-center lg:text-left lg:w-2/4">
@@ -99,7 +99,7 @@ export default function Home() {
       <div className="mt-16 grid gap-12">
         {/* Bloc 1 */}
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
-          <div>
+          <div className="order-1 md:order-none">
             <h3 className="text-xl font-semibold text-gray-900">
              With over ten years of experience
             </h3>
@@ -108,7 +108,7 @@ export default function Home() {
             </p>
           </div>
 
-          <div className="overflow-hidden rounded-2xl border bg-gray-50">
+          <div className="order-2 md:order-none overflow-hidden rounded-2xl border w-[75%] bg-gray-50 mx-auto">
             <img
               className="h-full w-full object-cover"
               src="https://images.unsplash.com/photo-1521737604893-d14cc237f11d?auto=format&fit=crop&w=1600&q=80"
@@ -120,7 +120,7 @@ export default function Home() {
 
        {/* Bloc 2 */}
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
-          <div className="overflow-hidden rounded-2xl border bg-gray-50">
+          <div className="order-2 md:order-1 overflow-hidden rounded-2xl border w-[75%] bg-gray-50 mx-auto">
             <img
               className="h-full w-full object-cover"
               src="https://images.unsplash.com/photo-1522071820081-009f0129c71c?auto=format&fit=crop&w=1600&q=80"
@@ -129,7 +129,7 @@ export default function Home() {
             />
           </div>
 
-          <div>
+          <div className="order-1 md:order-2">
             <h3 className="text-xl font-semibold text-gray-900">
               Our team brings together
             </h3>

@@ -9,15 +9,23 @@ export default function AboutUsPage() {
 
 
      {/* Block 1 */}
-        <div className="mx-auto max-w-6xl px-6 pt-24">
-          
-            <div className="text-center">
-              <h1 className="text-4xl font-extrabold text-gray-900">About Us</h1>
-              <p className="mx-auto text-lg font-normal mt-4 max-w-3xl text-gray-500">
-              We support clients in Seychelles and abroad through consulting, strategy, communication, promotion, IT management, and event organization. Our mission is to deliver structured solutions adapted to every business need.
-              </p>
-            </div>
+        <div className="mx-auto max-w-6xl px-6 pt-28">
 
+          <div className="max-w-7xl">
+           
+            <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
+              About us
+            </h2>
+            <div className="mt-4 h-[2px] w-16 rounded-full bg-[#233876]" />
+            <p className="mt-6 text-base leading-relaxed text-gray-600 sm:text-base lg:text-lg">
+                          We support clients in Seychelles and abroad through consulting, strategy, communication, promotion, IT management, and event organization. Our mission is to deliver structured solutions adapted to every business need.
+
+            </p>
+
+            
+          </div>
+          
+          
             <div className="mt-14 grid gap-10 md:grid-cols-2 md:items-center">
               {/* Image */}
               <div className="overflow-hidden rounded-2xl bg-gray-100">
@@ -82,7 +90,7 @@ export default function AboutUsPage() {
 
       {/* Block 2 */}
       
-        <div className="bg-white pt-16 sm:pt-25 sm:pb-10">
+        <div className="bg-white pt-8 sm:pt-25 sm:pb-10">
   <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-[2.5fr_1fr_1fr]">
               <div className="max-w-xl">
                 <h2 className="text-3xl font-semibold tracking-tight text-pretty text-gray-900 sm:text-4xl">Meet our leadership</h2>
