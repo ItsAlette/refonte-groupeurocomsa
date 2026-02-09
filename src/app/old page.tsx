@@ -9,13 +9,13 @@ export default function Home() {
     <main className="min-h-screen bg-white text-gray-900">
 
 {/*
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white">
           <div className="gap-16 items-center py-8 px-4 mx-auto max-w-screen-xl lg:py-16 lg:px-6">
               
-              <div className="flex flex-col items-center text-center font-light text-gray-700 sm:text-lg dark:text-gray-400">
+              <div className="flex flex-col items-center text-center font-light text-gray-700 sm:text-lg">
                 <img className="mb-5 mt-10 rounded-xl" src="/Logo_EUROCOMSA.jpg" alt="Group Eurocom (SA) logo" />
                 
-                  <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+                  <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
                   You want your products to be the best sellers </h2>
                   <p>We offer you the unique urban marketing support in communication to set up, develop and adapt your products to your customer’s real needs
                   </p>
@@ -79,10 +79,10 @@ export default function Home() {
 
 
 
-      <section className="bg-white dark:bg-gray-900">
+      <section className="bg-white">
           <div className="gap-4 items-center py-8 px-4 mx-auto max-w-screen-xl lg:grid lg:grid-cols-2 lg:pt-0 lg:px-16">
-              <div className="font-light text-gray-500 sm:text-lg dark:text-gray-400">
-                  <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900 dark:text-white">
+              <div className="font-light text-gray-500 sm:text-lg">
+                  <h2 className="mb-4 text-4xl tracking-tight font-extrabold text-gray-900">
                   With more than ten years of experience and know-how</h2>
       
                   <p>

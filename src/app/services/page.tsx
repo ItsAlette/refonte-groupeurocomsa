@@ -5,7 +5,7 @@ export default function ServicesPage() {
   return (
     <main>
       <section className="bg-white  sm:mt-20">
-        <div className="mx-auto max-w-7xl px-6 sm:px-6 lg:px-8">
+        <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-">
           {/* Header */}
           <div className="max-w-7xl mt-28">
             <p className="text-sm font-semibold tracking-[0.25em] text-[#233876]">
