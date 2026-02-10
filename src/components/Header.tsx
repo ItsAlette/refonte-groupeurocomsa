@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
+import logoGroupEurocom from "@/app/pictures/LOGO GESA leslie 2.jpg";
 
 const links = [
   { label: "Home Page", href: "/" },
@@ -17,13 +18,12 @@ function Logo() {
     <div className="flex items-center gap-3 ">
       
       <span className="leading-none">
-        <span className="block text-base font-medium uppercase tracking-widest text-gray-900">
-          Group
-        </span>
-        <span className="inline-flex items-baseline gap-1 text-2xl font-bold tracking-wide text-[#233876]">
-          Eurocom
-          <span className="text-[10px] font-semibold text-gray-700">(SA)</span>
-        </span>
+        <img
+          src={logoGroupEurocom.src}
+          alt="GESA logo"
+          className="h-14 w-auto object-contain"
+        />
+      
       </span>
     </div>
   );

@@ -7,7 +7,7 @@ export default function ServicesPage() {
       <section className="bg-white  sm:mt-20">
         <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px-">
           {/* Header */}
-          <div className="max-w-7xl mt-28">
+          <div className="max-w-7xl mt-24">
             <p className="text-sm font-semibold tracking-[0.25em] text-[#233876]">
               SERVICES
             </p>
