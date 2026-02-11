@@ -76,7 +76,7 @@ export default function AboutUs() {
                 </div>
             </div>
 
-            {/* Block 2 */}
+            {/* Block 2 
      <div className="bg-white mx-auto max-w-6xl px-6 pt-8 sm:pt-25 sm:pb-10">
         <div className="mx-auto grid max-w-7xl gap-20 px-6 lg:px-8 xl:grid-cols-[2.5fr_1fr_1fr]">
           <div className="max-w-xl">
@@ -91,7 +91,7 @@ export default function AboutUs() {
             <Image className="h-full w-full object-cover" src={logoGroupEurocom} alt="Group Eurocom logo" />
           </div>
         </div>
-      </div>
+      </div> */}
         </>
     );
 }

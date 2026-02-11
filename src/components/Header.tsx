@@ -3,7 +3,7 @@
 import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useState } from "react";
-import logoGroupEurocom from "@/app/pictures/LOGO GESA leslie 2.jpg";
+import logoGroupEurocom from "@/app/pictures/LOGO GESA sans texte.jpg";
 
 const links = [
   { label: "Home Page", href: "/" },
@@ -21,7 +21,7 @@ function Logo() {
         <img
           src={logoGroupEurocom.src}
           alt="GESA logo"
-          className="h-14 w-auto object-contain"
+          className="h-16 mr-12 sm:h-16 w-auto object-contain"
         />
       
       </span>
