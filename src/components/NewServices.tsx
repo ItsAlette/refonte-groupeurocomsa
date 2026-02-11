@@ -1,6 +1,13 @@
-import Image from 'next/image';
+type SectionProps = {
+  title: string;
+  text: string;
+  imageSrc: string;
+  imageAlt: string;
+  reverse?: boolean;
+  showBadge?: boolean;
+};
 
-const Section = ({ title, text, imageSrc, imageAlt, reverse = false, showBadge = false }) => {
+const Section = ({ title, text, imageSrc, imageAlt, reverse = false, showBadge = false }: SectionProps) => {
   return (
     <section className={`
       flex flex-col gap-8 py-12 px-6 max-w-7xl mx-auto
