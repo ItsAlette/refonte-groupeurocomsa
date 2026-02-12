@@ -293,7 +293,7 @@ export default function ServicesPage() {
               
              
 
-              <div className="sm:w-[60%] lg:w-[40%] md:w-[40%]  flex-shrink-0 snap-center group">
+              <div className="w-full sm:w-[60%] md:w-[40%] lg:w-[40%] flex-shrink-0 snap-center group">
                 <div className="relative h-full w-full object-cover overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
                   <img src="https://images.unsplash.com/photo-1624365168056-daf44387e2ae?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGR8ZW58MHx8MHx8fDA%3D" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
