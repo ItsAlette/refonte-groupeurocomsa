@@ -94,8 +94,7 @@ export default function SolutionsPage() {
                             <div className="shrink-0">
                             </div>
                         </div>
-                        <p className="text-base leading-relaxed text-gray-600 sm:text-base">A specialization in business management
-.</p>
+                        <p className="text-base leading-relaxed text-gray-600 sm:text-base">A specialization in business management.</p>
                         </div>
 
                     </div>
@@ -131,7 +130,7 @@ export default function SolutionsPage() {
                         Surveys on the ground
                     </li>
                     <li className="flex items-start gap-3">
-                        <span className="mt-2 h-2 w-2 rounded-full bg-[#233876]" />
+                        <span className="mt-2 h-2 lg:w-2 md:w-2 w-4 rounded-full bg-[#233876] " />
                         Analysis, estimates, adequate and reliable tools to ensure positive change
                     </li>
                     </ul>

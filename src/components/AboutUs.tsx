@@ -4,8 +4,8 @@ export default function AboutUs() {
     return (
         <>
             {/* Block 1 */}
-            <div className="mx-auto max-w-6xl px-6 pt-20">
-                <div className="max-w-7xl">
+            <div className="mx-auto max-w-7xl px-8 sm:px-6 lg:px- mt-24">
+                <div className="max-w-6xl">
                     <h2 className="mt-3 text-3xl font-extrabold tracking-tight text-gray-900 sm:text-4xl lg:text-5xl">
                         About us
                     </h2>

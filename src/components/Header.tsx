@@ -17,13 +17,15 @@ function Logo() {
   return (
     <div className="flex items-center gap-3 ">
       
+
       <span className="leading-none">
-        <img
-          src={logoGroupEurocom.src}
-          alt="GESA logo"
-          className="h-16 mr-12 sm:h-16 w-auto object-contain"
-        />
-      
+        <span className="block text-xs font-medium uppercase tracking-[0.18em] text-gray-900 sm:text-sm sm:tracking-[0.22em] md:text-base md:tracking-widest">
+          Group
+        </span>
+        <span className="inline-flex items-baseline gap-1 text-lg font-bold tracking-[0.01em] text-[#233876] sm:text-xl md:text-2xl md:tracking-wide">
+          Eurocom SA
+          <span className="text-[9px] font-semibold text-gray-700 sm:text-[10px]">(GESA)</span>
+        </span>
       </span>
     </div>
   );
@@ -39,7 +41,7 @@ export default function Header() {
 
   return (
     <header className="fixed top-0 left-0 right-0 z-50 bg-white shadow-sm">
-      <div className="mx-auto max-w-6xl px-6">
+      <div className="mx-auto max-w-7xl px-6">
         <div className="h-18 flex items-center justify-between">
           <Link href="/" className="flex items-center">
             <Logo />
@@ -119,5 +121,4 @@ export default function Header() {
     </header>
   );
 }
-
 

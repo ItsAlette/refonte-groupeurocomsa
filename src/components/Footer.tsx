@@ -9,7 +9,7 @@ export default function Footer() {
           
           {/* Left */}
           <p className="text-sm text-white/60">
-            © {new Date().getFullYear()} Group Eurocom (SA). All rights reserved.
+            © {new Date().getFullYear()} Group Eurocom SA (GESA). All rights reserved.
           </p>
 
           {/* Right */}
