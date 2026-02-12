@@ -289,17 +289,17 @@ export default function ServicesPage() {
               </div>
             </div>
 
-            <div className="flex gap-6 overflow-x-auto pb-10 snap-x snap-mandatory [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
+            <div className="flex gap-4 overflow-x-auto pb-8 snap-x snap-mandatory sm:gap-6 sm:pb-10 [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden">
               
              
 
-              <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+              <div className="min-w-[78vw] flex-shrink-0 snap-start group sm:min-w-[320px] md:min-w-[260px] lg:min-w-[280px] sm:snap-center">
+                <div className="relative h-[210px] overflow-hidden rounded-[2.25rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 sm:h-[250px] sm:rounded-[3rem] md:h-[280px]">
                   <img src="https://images.unsplash.com/photo-1624365168056-daf44387e2ae?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fGdvbGR8ZW58MHx8MHx8fDA%3D" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-                  <div className="absolute bottom-10 left-10 right-10 text-white">
-                    <h3 className="text-2xl font-bold mb-4">Raw Materials</h3>
-                    <ul className="space-y-2 text-sm text-gray-200">
+                  <div className="absolute bottom-4 left-4 right-4 text-white sm:bottom-8 sm:left-8 sm:right-8">
+                    <h3 className="mb-2 text-lg font-bold sm:mb-4 sm:text-2xl">Raw Materials</h3>
+                    <ul className="space-y-1 text-xs text-gray-200 sm:space-y-2 sm:text-sm">
                       <li className="flex items-center gap-2">
                         <span className="h-1.5 w-1.5 rounded-full bg-white"></span> Gold, Diamonds, Rubies
                       </li>
@@ -311,13 +311,13 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="min-w-[78vw] flex-shrink-0 snap-start group sm:min-w-[320px] md:min-w-[260px] lg:min-w-[280px] sm:snap-center">
+                <div className="relative h-[210px] overflow-hidden rounded-[2.25rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 sm:h-[250px] sm:rounded-[3rem] md:h-[280px]">
                   <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-                  <div className="absolute bottom-10 left-10 right-10 text-white">
-                    <h3 className="text-2xl font-bold mb-4">Food Supply</h3>
-                      <ul className="space-y-2 text-sm text-gray-200">
+                  <div className="absolute bottom-4 left-4 right-4 text-white sm:bottom-8 sm:left-8 sm:right-8">
+                    <h3 className="mb-2 text-lg font-bold sm:mb-4 sm:text-2xl">Food Supply</h3>
+                      <ul className="space-y-1 text-xs text-gray-200 sm:space-y-2 sm:text-sm">
                         <li className="flex items-center gap-2">
                           <span className="h-1.5 w-1.5 rounded-full bg-white"></span> Rice, Sugar
                         </li>
@@ -329,29 +329,29 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="min-w-[78vw] flex-shrink-0 snap-start group sm:min-w-[320px] md:min-w-[260px] lg:min-w-[280px] sm:snap-center">
+                <div className="relative h-[210px] overflow-hidden rounded-[2.25rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 sm:h-[250px] sm:rounded-[3rem] md:h-[280px]">
                   <img src="https://images.unsplash.com/photo-1638517747420-c31bef7cf640?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRpYW1vbmRzfGVufDB8fDB8fHww" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-                  <div className="absolute bottom-10 left-10 right-10 text-white">
+                  <div className="absolute bottom-4 left-4 right-4 text-white sm:bottom-8 sm:left-8 sm:right-8">
                   </div>
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="min-w-[78vw] flex-shrink-0 snap-start group sm:min-w-[320px] md:min-w-[260px] lg:min-w-[280px] sm:snap-center">
+                <div className="relative h-[210px] overflow-hidden rounded-[2.25rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 sm:h-[250px] sm:rounded-[3rem] md:h-[280px]">
                   <img src="https://images.unsplash.com/photo-1709651808265-977ed7ef78c6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VnYXJ8ZW58MHx8MHx8fDA%3D" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-                  <div className="absolute bottom-10 left-10 right-10 text-white">
+                  <div className="absolute bottom-4 left-4 right-4 text-white sm:bottom-8 sm:left-8 sm:right-8">
                   </div>
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="min-w-[78vw] flex-shrink-0 snap-start group sm:min-w-[320px] md:min-w-[260px] lg:min-w-[280px] sm:snap-center">
+                <div className="relative h-[210px] overflow-hidden rounded-[2.25rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 sm:h-[250px] sm:rounded-[3rem] md:h-[280px]">
                   <img src="https://images.unsplash.com/photo-1625479610681-f789345a8157?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1lcmF1ZGV8ZW58MHx8MHx8fDA%3D" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
-                  <div className="absolute bottom-10 left-10 right-10 text-white">
+                  <div className="absolute bottom-4 left-4 right-4 text-white sm:bottom-8 sm:left-8 sm:right-8">
                   </div>
                 </div>
               </div>
