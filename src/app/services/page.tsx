@@ -311,8 +311,8 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="w-full sm:w-[60%] md:w-[40%] lg:w-[40%]  flex-shrink-0 snap-center group">
+                <div className="relative h-full w-full overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
                   <img src="https://images.unsplash.com/photo-1586201375761-83865001e31c?w=800" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                   <div className="absolute bottom-10 left-10 right-10 text-white">
@@ -329,8 +329,8 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="w-full sm:w-[60%] md:w-[40%] lg:w-[40%] flex-shrink-0 snap-center group">
+                <div className="relative h-full w-full overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
                   <img src="https://images.unsplash.com/photo-1638517747420-c31bef7cf640?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTZ8fGRpYW1vbmRzfGVufDB8fDB8fHww" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                   <div className="absolute bottom-10 left-10 right-10 text-white">
@@ -338,8 +338,8 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="w-full sm:w-[60%] md:w-[40%] lg:w-[40%]  flex-shrink-0 snap-center group">
+                <div className="relative h-full w-full overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
                   <img src="https://images.unsplash.com/photo-1709651808265-977ed7ef78c6?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8c3VnYXJ8ZW58MHx8MHx8fDA%3D" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                   <div className="absolute bottom-10 left-10 right-10 text-white">
@@ -347,8 +347,8 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-               <div className="min-w-[160px] sm:min-w-[220px] md:min-w-[200px] flex-shrink-0 snap-center group">
-                <div className="relative h-[180px] sm:h-[250px] overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
+               <div className="w-full sm:w-[60%] md:w-[40%] lg:w-[40%]  flex-shrink-0 snap-center group">
+                <div className="relative h-full w-full overflow-hidden rounded-[3rem] shadow-2xl border-4 border-white transition-all duration-500 hover:shadow-[#233876]/20">
                   <img src="https://images.unsplash.com/photo-1625479610681-f789345a8157?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZW1lcmF1ZGV8ZW58MHx8MHx8fDA%3D" alt="Food Supply" className="h-full w-full object-cover transition-transform duration-700 group-hover:scale-110" />
                   <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/20 to-transparent"></div>
                   <div className="absolute bottom-10 left-10 right-10 text-white">
