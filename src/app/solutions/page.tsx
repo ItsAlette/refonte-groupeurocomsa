@@ -103,7 +103,6 @@ export default function SolutionsPage() {
 
                 {/* Two blocks */}
                 <div className="mt-12 grid gap-8 lg:grid-cols-2">
-                {/* OUR ADDED VALUE */}
                 <div className="overflow-hidden rounded-2xl bg-gray-100">
                 <img
                   className="h-full w-full object-cover"
@@ -113,7 +112,7 @@ export default function SolutionsPage() {
                 />
               </div>
 
-                {/* OUR 'PULL' STRATEGY */}
+                {/* 'PULL' STRATEGY */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
                     <h3 className="text-xl font-extrabold text-gray-900">
                     OUR ‘PULL’ STRATEGY
@@ -130,7 +129,7 @@ export default function SolutionsPage() {
                         Surveys on the ground
                     </li>
                     <li className="flex items-start gap-3">
-                        <span className="mt-2 h-2 lg:w-2 md:w-2 w-4 rounded-full bg-[#233876] " />
+                        <span className="mt-2 h-2 w-2 rounded-full bg-[#233876] " />
                         Analysis, estimates, adequate and reliable tools to ensure positive change
                     </li>
                     </ul>
