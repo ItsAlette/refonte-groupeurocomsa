@@ -10,7 +10,7 @@ export default function DoubleBanner() {
   <div className="mx-auto max-w-7xl px-6">
     <div className="relative overflow-hidden rounded-3xl bg-gradient-to-r from-[#233876] to-[#0b1220] px-6 pt-10 pb-2 shadow-2xl sm:px-10">
       
-      {/* Section Galerie d'images */}
+      {/* Section galerie d'images */}
               <div className="mx-auto max-w-7xl px-4 py-16 sm:px-6 lg:px-8">
                 <div className="grid grid-cols-2 gap-4 md:grid-cols-4 lg:gap-8">
                   

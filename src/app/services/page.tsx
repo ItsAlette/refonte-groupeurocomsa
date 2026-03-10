@@ -311,6 +311,8 @@ export default function ServicesPage() {
                 ref={scrollRef}
                 className="flex gap-6 overflow-x-auto pb-10 snap-x snap-mandatory [scrollbar-width:none] [-ms-overflow-style:none] [&::-webkit-scrollbar]:hidden"
               >
+
+                  {/* R1 */}
                 <div className="group w-[60vw] flex-shrink-0 snap-center sm:w-[40vw] md:w-1/4">
                   <div className="relative overflow-hidden rounded-[3rem] border-4 border-white object-cover shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 aspect-[3/4]">
                     <img
@@ -335,6 +337,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
+                  {/* R1 */}
                 <div className="group w-[60vw] flex-shrink-0 snap-center sm:w-[40vw] md:w-1/4">
                   <div className="relative overflow-hidden rounded-[3rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 aspect-[3/4]">
                     <img
@@ -359,6 +362,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
+                    {/* R3 */}
                 <div className="group w-[60vw] flex-shrink-0 snap-center sm:w-[40vw] md:w-1/4">
                   <div className="relative overflow-hidden rounded-[3rem] border-4 border-white object-cover shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 aspect-[3/4]">
                     <img
@@ -379,6 +383,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
+                {/* R4 */}
                 <div className="group w-[60vw] flex-shrink-0 snap-center sm:w-[40vw] md:w-1/4">
                   <div className="relative overflow-hidden rounded-[3rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 aspect-[3/4]">
                     <img
@@ -403,6 +408,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
+                  {/* R5 */}
                 <div className="group w-[60vw] flex-shrink-0 snap-center sm:w-[40vw] md:w-1/4">
                   <div className="relative overflow-hidden rounded-[3rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 aspect-[3/4]">
                     <img
@@ -415,6 +421,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
+                  {/* R6*/}
                 <div className="group w-[60vw] flex-shrink-0 snap-center sm:w-[40vw] md:w-1/4">
                   <div className="relative overflow-hidden rounded-[3rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 aspect-[3/4]">
                     <img
@@ -427,6 +434,7 @@ export default function ServicesPage() {
                   </div>
                 </div>
 
+                  {/* R7 */}
                 <div className="group w-[60vw] flex-shrink-0 snap-center sm:w-[40vw] md:w-1/4">
                   <div className="relative overflow-hidden rounded-[3rem] border-4 border-white shadow-2xl transition-all duration-500 hover:shadow-[#233876]/20 aspect-[3/4]">
                     <img
@@ -440,7 +448,7 @@ export default function ServicesPage() {
                 </div>
               </div>
 
-              {/* Contrôles */}
+              {/* Boutons de navigation */}
               <div className="mt-2 flex items-center justify-center gap-4">
                 <div
                   onClick={() => scrollTo(Math.max(0, activeIndex - 1))}

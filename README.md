@@ -1,36 +1,117 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Groupe Eurocom – Website Redesign
 
-## Getting Started
+## Overview
 
-First, run the development server:
+This project is a **modern redesign of the Groupe Eurocom SA website**.
+
+The original website, created around **2014**, can be accessed here:
+http://www.groupeurocomsa.com/index.html
+
+The goal of this project was to **modernize the design, improve usability, and make the website fully responsive** across desktop, tablet, and mobile devices.
+
+The redesigned version is available here:
+https://groupeurocomsa.vercel.app/
+
+---
+
+## Why this redesign
+
+The previous version of the website had several limitations:
+
+* The design was **outdated (created around 2014)**
+* The website was **not responsive**
+* The layout did not adapt to mobile or tablet screens
+* The visual structure and navigation could be improved
+
+This redesign focuses on providing a **clean, modern, and responsive interface** while preserving the original content and company identity.
+
+---
+
+## Improvements
+
+The new version introduces several improvements:
+
+* Modern and cleaner UI
+* Fully **responsive design**
+* Improved layout and navigation
+* Better visual hierarchy
+* Enhanced user experience
+
+---
+
+## Technologies Used
+
+* Next.js
+* React
+* Tailwind CSS
+* TypeScript
+
+---
+
+## Live Website
+
+You can view the redesigned website here:
+
+https://groupeurocomsa.vercel.app/
+
+---
+
+## Running the Project Locally
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/ItsAlette/refonte-groupeurocomsa.git
+```
+
+### 2. Navigate to the project folder
+
+```bash
+cd refonte-groupeurocomsa
+```
+
+### 3. Install dependencies
+
+```bash
+npm install
+```
+
+### 4. Run the development server
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Then open your browser and go to:
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+```
+http://localhost:3000
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Previous Website Screenshots
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Below are screenshots of the **original version of the website**.
 
-## Deploy on Vercel
+*(Add the screenshots here)*
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Example:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+![Old homepage](./old-site/HomePage.png)
+
+![Old Services page](./old-site/Services.png)
+
+![Old About us page](./old-site/AboutUS.png)
+
+![Old Solutions page](./old-site/Solutions.png)
+
+![Old Contact us page](./old-site/ContactUS.png)
+
+---
+
+## Author
+
+Website redesign and development by **Alette Dieme**

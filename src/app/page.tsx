@@ -5,6 +5,8 @@ export default function Home() {
   return (
     <main className="min-h-screen bg-white text-gray-900">
 
+
+    {/* First image par accueil */}
       <div className="px-4 sm:px-6 lg:px-8 ">
             <div
               className="mt-24 h-[40dvh] sm:h-[50dvh] lg:h-[60dvh] flex flex-col bg-cover bg-center bg-no-repeat rounded-2xl"
@@ -22,13 +24,13 @@ export default function Home() {
                       className="h-16 rounded-xl mr-12 sm:h-16 w-auto object-contain"
                     />
                   
-      </span>
+                    </span>
                 </h1>
               </div>
             </div>
       </div>
 
-
+      {/* Présentation Group */}
       <section className="pt-12 pb-2">
         <div className="mx-auto max-w-7xl px-4 sm:px-6 lg:px-8">
               <div className="mb-10 lg:mb-16 flex justify-center items-center flex-col gap-x-0 gap-y-6 lg:gap-y-0 lg:flex-row lg:justify-between max-md:max-w-lg max-md:mx-auto">

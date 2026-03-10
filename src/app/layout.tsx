@@ -16,8 +16,10 @@ const geistMono = Geist_Mono({
 
 
 export const metadata: Metadata = {
-  title: "Group Eurocomsa",
-  description: "Solutions digitales, IT et marketing",
+  title: "Group Eurocom SA (GESA)",
+  description: "Groupe Eurocom SA (GESA) is a consulting and communication firm specializing in urban marketing, event organization, strategic advisory, and business development solutions.",
+  authors: [{ name: "Alette Dieme", url: "https://www.linkedin.com/in/alette-dieme/" }],
+  creator: "Alette Dieme",
 };
 
 export default function RootLayout({
@@ -27,6 +29,12 @@ export default function RootLayout({
 }) {
   return (
     <html lang="fr">
+      <head>
+        <meta name="author" content="Alette Dieme" />
+        <meta name="creator" content="Alette Dieme" />
+        <meta name="linkedin" content="https://www.linkedin.com/in/alette-dieme/" />
+      </head>
+
       <body>
         <Header />
         {children}

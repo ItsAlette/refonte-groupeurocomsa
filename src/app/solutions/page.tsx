@@ -101,7 +101,6 @@ export default function SolutionsPage() {
                 </div>
 
 
-                {/* Two blocks */}
                 <div className="mt-12 grid gap-8 lg:grid-cols-2">
                 <div className="overflow-hidden rounded-2xl bg-gray-100">
                 <img
@@ -112,7 +111,7 @@ export default function SolutionsPage() {
                 />
               </div>
 
-                {/* 'PULL' STRATEGY */}
+                {/* Block fin de page */}
                 <div className="rounded-2xl border border-gray-200 bg-white p-8 shadow-sm">
                     <h3 className="text-xl font-extrabold text-gray-900">
                     OUR ‘PULL’ STRATEGY

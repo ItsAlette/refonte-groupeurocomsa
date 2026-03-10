@@ -55,6 +55,7 @@ export default function ContactUsPage() {
                 </div>
             </div>
 
+            {/* Form de contact*/}
             <div className="rounded-2xl bg-gray-50 p-5 lg:rounded-r-2xl lg:rounded-l-none lg:p-11">
                 <h2 className="mb-8 text-3xl font-semibold leading-tight text-blue-900 sm:text-4xl sm:leading-10">Fill in the form</h2>
                 <input type="text" className="mb-6 h-12 w-full rounded-full border border-gray-200 bg-transparent pl-4 text-base font-normal leading-7 text-gray-600 placeholder-gray-400 shadow-sm focus:outline-none sm:mb-8 sm:text-lg" placeholder="Name" />
@@ -80,11 +81,7 @@ export default function ContactUsPage() {
         </div>
       </div>
     </div>
-    </section>
-                                            
-
-
-  
+    </section>  
 </div>
 
 
