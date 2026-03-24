@@ -82,7 +82,7 @@ export default function ServicesPage() {
                 </div>
 
                 <div className="mx-auto w-[75%] overflow-hidden rounded-2xl border bg-gray-50">
-                  <Image
+                  <img
                     className="h-full w-full object-cover transform transition-transform duration-700 hover:scale-105"
                     src="https://images.unsplash.com/photo-1543242594-c8bae8b9e708?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fG1lZGlhfGVufDB8fDB8fHww"
                     alt="feature image 1"
@@ -95,7 +95,7 @@ export default function ServicesPage() {
               {/* Bloc 2 */}
               <div className="grid gap-10 md:grid-cols-2 md:items-center">
                 <div className="order-2 mx-auto w-[75%] overflow-hidden rounded-2xl border bg-gray-50 md:order-1">
-                  <Image
+                  <img
                     className="h-full w-full object-cover transform transition-transform duration-700 hover:scale-105"
                     src="https://images.unsplash.com/photo-1596008194705-2091cd6764d4?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8b2JqZWN0aWZ8ZW58MHx8MHx8fDA%3D"
                     alt="feature image 2"
@@ -141,7 +141,7 @@ export default function ServicesPage() {
                 </div>
 
                 <div className="mx-auto w-[75%] overflow-hidden rounded-2xl border bg-gray-50">
-                  <Image
+                  <img
                     className="h-full w-full object-cover transform transition-transform duration-700 hover:scale-105"
                     src="https://images.unsplash.com/photo-1672380135241-c024f7fbfa13?w=800&auto=format&fit=crop&q=60&ixlib=rb-4.1.0&ixid=M3wxMjA3fDB8MHxwaG90by1yZWxhdGVkfDF8fHxlbnwwfHx8fHw%3D"
                     alt="feature image 1"
